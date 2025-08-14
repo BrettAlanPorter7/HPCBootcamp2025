@@ -152,16 +152,26 @@ section p {
 footer {
     background-color: #333;
     color: white;
-    text-align: center;
+    text-align: right;
     padding: 10px;
+
+}
+
+footer p {
+    margin: 0; /* removes default paragraph margin */
+    text-align: right;
+}
+footer img {
+    max-width: 150px; /* optional: control image size */
+    text-align: right;
 }
 
 img {
-    max-width: 50%;  /* Ensures the image doesn't exceed the container */
+    max-width: 50%;  
     text-align: center;
-    height: auto;      /* Keeps the aspect ratio */
-    display: block;    /* Prevents extra spacing issues */
-    margin: 0 auto;    /* Centers the image */
+    height: auto;      
+    display: block;   
+    margin: 0 auto;    
 }
 
 /* Only apply styles to the contact section */
