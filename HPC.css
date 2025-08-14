@@ -9,11 +9,19 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    /*color: #333;*/
     margin: 0;
     padding: 0;    
     text-align: center;
-  }
+    margin: 0;
+    background-image: url("ELLMfHPCE.webp"); /* path to your image */
+    background-size: cover;  /* make it fill the screen */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat; /* prevent tiling */
+    background-attachment: fixed; /* keep it still while scrolling */
+    color: white; /* adjust text color so it’s readable */
+}
+
 
 /* Header Styling */
 header {
