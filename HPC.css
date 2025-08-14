@@ -7,14 +7,16 @@
 
 /* Body styling with background image */
 body {
-    background-color: red;
-    /*background-image: url("./ELLMfHPCE.webp");
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: white; /* make text readable over bg */
+    background-image: url("ELLMfHPCE.webp"); /* ✅ Correct syntax */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;*/
+    background-attachment: fixed; /* stays in place while scrolling */
+    text-align: center;
 }
-
 
 /* Header */
 header {
@@ -41,7 +43,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 nav ul li a:hover {
@@ -65,6 +67,17 @@ section img {
     margin: 0 auto;
 }
 
+main section:first-of-type {
+    background-color: white; /* white block */
+    padding: 20px; /* space inside */
+    margin: 20px auto; /* space around */
+    max-width: 800px; /* keep it narrower than full page */
+    border-radius: 10px; /* optional rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional shadow */
+    color: black;
+}
+
+
 section img {
     max-width: 60%;
     height: auto;
@@ -87,7 +100,7 @@ footer p {
 }
 
 footer img {
-    max-width: 150px;
+    max-width: 500px;
     height: auto;
     margin-top: 5px;
 }
