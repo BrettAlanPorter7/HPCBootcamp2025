@@ -3,21 +3,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("ELLMfHPCE.webp");
 }
 
 /* Body styling with background image */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: white; /* make text readable over bg */
-    background-image: url("ELLMfHPCE.webp"); /* ✅ Correct syntax */
+    background-color: red;
+    /*background-image: url("./ELLMfHPCE.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* stays in place while scrolling */
-    text-align: center;
+    background-attachment: fixed;*/
 }
+
 
 /* Header */
 header {
