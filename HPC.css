@@ -85,22 +85,20 @@ section img {
     margin-top: 15px;
 }
 
-/* Footer */
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 10px;
     display: flex;
-    flex-direction: column; /* stack p above img */
-    align-items: flex-end;  /* align both to right */
-    color: white;
+    justify-content: space-between; /* logo left, text right */
+    align-items: center; /* vertically center them */
+    padding: 10px 20px; /* spacing */
+    background-color: white;
+    color: black;
+}
+
+footer img {
+    height: 80px; /* adjust size to your needs */
 }
 
 footer p {
     margin: 0;
 }
 
-footer img {
-    max-width: 500px;
-    height: auto;
-    margin-top: 5px;
-}
